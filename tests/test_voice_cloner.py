@@ -2,9 +2,6 @@
 
 import sys
 from pathlib import Path
-
-import pytest
-
 # Add backend to import path
 sys.path.insert(0, str(Path(__file__).parent.parent / "backend"))
 

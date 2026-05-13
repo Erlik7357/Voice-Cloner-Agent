@@ -28,7 +28,7 @@ class TestHealthEndpoint:
         assert response.status_code == 200
 
     def test_returns_ok_status(self, client):
-        data = json.loads(response := client.get("/health").data)
+        data = json.loads(client.get("/health").data)
         assert data["status"] == "ok"
 
     def test_returns_service_name(self, client):
