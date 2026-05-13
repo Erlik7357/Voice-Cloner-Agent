@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  voice-cloner:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./voice_samples:/app/voice_samples
+      - ./output:/app/output
+    environment:
+      - VOICE_CLONER_GPU=0
+      - VOICE_CLONER_PRELOAD=1
+      - VOICE_CLONER_DEBUG=0
+    restart: unless-stopped

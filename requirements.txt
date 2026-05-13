@@ -1,0 +1,4 @@
+# Anime Voice Forge — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+-r backend/requirements.txt

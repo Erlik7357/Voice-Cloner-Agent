@@ -1,0 +1,5 @@
+# Legacy dependency track for historical compatibility.
+# Windows note: this track may require Microsoft Visual C++ Build Tools 14+.
+TTS==0.22.0
+torch==2.1.2
+torchaudio==2.1.2

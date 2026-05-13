@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.venv*/
+venv*/
+.env
+
+# Node
+node_modules/
+dashboard/dist/
+dashboard/.vite/
+dashboard/dev_stderr.log
+dashboard/dev_stdout.log
+dashboard/tsconfig.tsbuildinfo
+
+# Audio files (copyright-sensitive, not tracked)
+voice_samples/*.wav
+voice_samples/*.mp3
+voice_samples/*.m4a
+voice_samples/*.flac
+voice_samples/*.ogg
+voice_samples/custom/*.wav
+voice_samples/custom/*.mp3
+
+# Generated output
+output/*.wav
+output/*.log
+output/cache/
+
+# TTS model weights (auto-downloaded)
+backend/models/
+
+# Logs
+*.log
+.server.err.log
+.server.out.log
+
+# Graphify analysis (dev tool output)
+.graphify_*.json
+graphify-out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
